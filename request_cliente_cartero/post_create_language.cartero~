@@ -1,0 +1,16 @@
+version = 1
+url = "http://127.0.0.1:3000/language"
+method = "POST"
+
+[body]
+type = "raw"
+format = "json"
+body = """
+{
+    \"name\" : \"Python\",
+    \"description\": \"lenguaje versaitl scirpting apra machine learnign\"
+}"""
+
+[headers]
+
+[variables]
